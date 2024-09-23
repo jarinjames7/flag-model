@@ -1,0 +1,48 @@
+
+.orange{
+        width: 600px;
+        height: 200px;
+        background-color: orange;
+        position: relative;
+}
+.white{
+        height: 200px;
+        width: 600px;
+        background-color: white;
+        position: relative;
+        border-top: 1px solid black;
+}
+.white >div{
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        border: 4px solid blue;
+        position: absolute;
+        left: 200px;
+        top: 20px;
+}
+.green{
+        background-color: green;
+        height: 200px;
+        width: 600px;
+        position: relative;
+        border-top: 1px solid black;
+}
+#main{
+        border: 1px solid black;
+        height: 600px;
+        width: 600px;
+        position: relative;
+        left: 500px;
+        top: 100px;
+
+}
+h2{
+        margin: 0;
+        padding: 0;
+}
+.name{
+        left: 210px;
+        top: 15px;
+        position: relative;
+}
